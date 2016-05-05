@@ -41,4 +41,7 @@ Implemented Methods: [see wrapper](https://github.com/lwhiteley/react-native-fou
 - Pull requests are welcome
 - Only venues feature (mostly) built out so far
 
+### Useful Link
+- [https://developer.foursquare.com/overview/versioning](https://developer.foursquare.com/overview/versioning)
+
 License: MIT
