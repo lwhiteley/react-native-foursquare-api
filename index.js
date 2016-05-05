@@ -1,9 +1,12 @@
+
+var configService = require('./services/config');
 // API Features
 var venues = require('./lib/api/venues');
 
-module.exports = function(clientID, clientSecret){
+module.exports = function(settings){
+  var config = configService.getConfig(settings);
   var foursquare = {
-    venues: venues(clientID, clientSecret)
+    venues: venues(config)
   };
   return foursquare;
 };

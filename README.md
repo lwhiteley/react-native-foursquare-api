@@ -6,21 +6,26 @@ This is currently a wrapper on the foursquare v2 API (`https://api.foursquare.co
 #### Example
 
 ```js
-var foursquare = require('react-native-foursquare-fetch')('YOUR_CLIENTID', 'YOUR_CLIENTSECRET');
+var foursquare = require('react-native-foursquare-fetch')({
+  clientID: 'YOUR_CLIENTID',
+  clientSecret: 'YOUR_CLIENTSECRET',
+  style: 'foursquare', // default: 'foursquare'
+  version: '20140806' //  default: '20140806'
+});
 
- // see respective api documentation for list of params you could pass
-	var params = {
-		"ll": "10.652814,-61.3969835",
-    "query": 'Movie Towne'
-	};
+// see respective api documentation for list of params you could pass
+var params = {
+	"ll": "10.652814,-61.3969835",
+  "query": 'Movie Towne'
+};
 
-	foursquare.venues.getVenues(params)
-        .then(function(venues) {
-      		console.log(venues);
-      	})
-        .catch(function(err){
-          console.log(err);
-        });
+foursquare.venues.getVenues(params)
+      .then(function(venues) {
+    		console.log(venues);
+    	})
+      .catch(function(err){
+        console.log(err);
+      });
 ```
 
 ## Features
