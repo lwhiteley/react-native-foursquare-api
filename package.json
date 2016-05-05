@@ -1,5 +1,5 @@
 {
-  "name": "react-native-foursquare-fetch",
+  "name": "react-native-foursquare-api",
   "version": "0.0.1",
   "description": "react-native wrapper for foursquare api using fetch ",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lwhiteley/react-native-foursquare-fetch.git"
+    "url": "git+https://github.com/lwhiteley/react-native-foursquare-api.git"
   },
   "keywords": [
     "react-component",
@@ -21,9 +21,9 @@
   "author": "Layton Whiteley",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lwhiteley/react-native-foursquare-fetch/issues"
+    "url": "https://github.com/lwhiteley/react-native-foursquare-api/issues"
   },
-  "homepage": "https://github.com/lwhiteley/react-native-foursquare-fetch#readme",
+  "homepage": "https://github.com/lwhiteley/react-native-foursquare-api#readme",
   "dependencies": {
     "querystring": "^0.2.0"
   }
