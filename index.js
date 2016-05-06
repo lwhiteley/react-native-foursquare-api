@@ -1,5 +1,5 @@
 
-var configService = require('./services/config');
+var configService = require('./lib/services/config');
 // API Features
 var venues = require('./lib/api/venues');
 

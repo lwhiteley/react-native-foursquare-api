@@ -1,6 +1,6 @@
 {
   "name": "react-native-foursquare-api",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "react-native wrapper for foursquare api using fetch ",
   "main": "index.js",
   "scripts": {
