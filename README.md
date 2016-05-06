@@ -1,4 +1,4 @@
-# react-native-foursquare-fetch
+# react-native-foursquare-api
 react-native wrapper for foursquare api using fetch
 
 This is currently a wrapper on the foursquare v2 API (`https://api.foursquare.com/v2`).
@@ -34,7 +34,7 @@ foursquare.venues.getVenues(params)
 
 API Documentation: [Venues API](https://developer.foursquare.com/docs/venues/venues)
 
-Implemented Methods: [see wrapper](https://github.com/lwhiteley/react-native-foursquare-fetch/blob/master/lib/api/venues.js)
+Implemented Methods: [see wrapper](https://github.com/lwhiteley/react-native-foursquare-api/blob/master/lib/api/venues.js)
 
 
 ## Notes
