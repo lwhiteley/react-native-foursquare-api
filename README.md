@@ -6,7 +6,7 @@ This is currently a wrapper on the foursquare v2 API (`https://api.foursquare.co
 #### Example
 
 ```js
-var foursquare = require('react-native-foursquare-fetch')({
+var foursquare = require('react-native-foursquare-api')({
   clientID: 'YOUR_CLIENTID',
   clientSecret: 'YOUR_CLIENTSECRET',
   style: 'foursquare', // default: 'foursquare'
